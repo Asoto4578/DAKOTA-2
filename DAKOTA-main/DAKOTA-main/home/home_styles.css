@@ -1,0 +1,76 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header .logo img {
+  width: 40px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+nav a.active {
+  color: #00e6ff;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.banner img {
+  border-radius: 15px;
+  width: 45%;
+  height: auto;
+}
+
+.promo {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.promo h2 {
+  font-size: 2rem;
+  color: orange;
+}
+
+.social {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.social a {
+  margin: 0 10px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.social a:hover {
+  color: #00e6ff;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #f4f4f4;
+  margin-top: 20px;
+}
